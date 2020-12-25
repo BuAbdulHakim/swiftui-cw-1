@@ -22,8 +22,6 @@ struct CW_1_2: View {
                     Image(systemName: "gear")
                         .resizable()
                         .frame(width: 30, height: 30)
-
-
                 }
                 .padding()
                 .font(.system(size: 30))
@@ -32,20 +30,20 @@ struct CW_1_2: View {
                 
                 HStack(alignment: .bottom){
                     Text("02:10")
-                        .font(.system(size: 80, weight: .bold, design: .rounded))
+                        //.font(.system(size: 80, weight: .bold, design: .rounded))
+                        .font(.custom("Monteserrat-Light", size: 80))
                     Text("10")
                         .font(.system(size: 13, weight: .bold, design: .rounded))
                 }
                 .foregroundColor(.white)
-                Spacer()
+                //Spacer()
 
                 
                 Text("مضى على الأذان")
                     .foregroundColor(.white)
+                    .font(.custom("Monteserrat-Light", size: 20))
+                
                 Spacer()
-
-                
-                
                 HStack{
                     Image(systemName: "chevron.left")
                     Spacer()
@@ -56,9 +54,7 @@ struct CW_1_2: View {
                 .frame(minWidth: 300, idealWidth: 400, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
                 .padding()
                 .background(Color.white.opacity(0.2))
-                Spacer()
-
-                
+                //Spacer()
                 
                 VStack(spacing: 16){
                     HStack{
@@ -122,13 +118,18 @@ struct CW_1_2: View {
                     .padding()
                     
                 }
-                //.padding(.vertical)
                 .background(Color.white.opacity(0.2))
+                .font(.custom("Monteserrat-Light", size: 20))
+
                 //Spacer()
-                .edgesIgnoringSafeArea(.all)
 
             }
+            //.padding(.vertical)
             .foregroundColor(.white)
+            .edgesIgnoringSafeArea(.bottom)
+            Spacer()
+            
+
 
         }
     }
@@ -137,6 +138,6 @@ struct CW_1_2: View {
 struct CW_1_2_Previews: PreviewProvider {
     static var previews: some View {
         CW_1_2()
-            .previewDevice("iPhone SE (2nd generation)")
+            .previewDevice("iPhone 11 Pro")
     }
 }
