@@ -31,6 +31,7 @@
 		528740E62595FC4B0026513C /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 528740D42595FC4B0026513C /* Montserrat-BlackItalic.ttf */; };
 		528740E72595FC4B0026513C /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 528740D52595FC4B0026513C /* Montserrat-Light.ttf */; };
 		528740E82595FC4B0026513C /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 528740D62595FC4B0026513C /* Montserrat-Regular.ttf */; };
+		528740F0259617020026513C /* HW_1_Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528740EF259617020026513C /* HW_1_Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		528740D42595FC4B0026513C /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
 		528740D52595FC4B0026513C /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
 		528740D62595FC4B0026513C /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		528740EF259617020026513C /* HW_1_Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_1_Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				52359BF825950FF900D1A789 /* Assets.xcassets */,
 				52359BFD25950FF900D1A789 /* Info.plist */,
 				52359BFA25950FF900D1A789 /* Preview Content */,
+				528740EF259617020026513C /* HW_1_Calculator.swift */,
 			);
 			path = "cw-1";
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52359BF725950FF700D1A789 /* ContentView.swift in Sources */,
+				528740F0259617020026513C /* HW_1_Calculator.swift in Sources */,
 				52359BF525950FF700D1A789 /* cw_1App.swift in Sources */,
 				52359C082595102500D1A789 /* CW_1_2.swift in Sources */,
 				52359C052595101600D1A789 /* CW_1_1.swift in Sources */,
