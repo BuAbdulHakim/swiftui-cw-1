@@ -9,7 +9,24 @@ import SwiftUI
 
 struct CW_1_1: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Image("BACKGROUND")
+                .resizable()
+            VStack{
+                Image("Header")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                Spacer()
+                Image("Mosque")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+            }
+            Text("سبحان الله")
+                .font(.largeTitle)
+                .foregroundColor(.white)
+        }
+        .edgesIgnoringSafeArea(.all)
+
     }
 }
 
